@@ -1,54 +1,9 @@
 fileFormatVersion: 2
-guid: 3c27c39e50114db4fb663e8d28325f0c
+guid: e5f8ad3e2bf2dd94d8e1d2567cb40e4a
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Amarelo Brilho
-    second: {fileID: 2100000, guid: bc8bccbcb62a56643ae4229b1b3d7685, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Azul Escuro
-    second: {fileID: 2100000, guid: d4d0ef201607dd14896d1b85984a7045, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Azul Placa
-    second: {fileID: 2100000, guid: 1234786743877934baf6c8b8f6891f7c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Contato Eletronico
-    second: {fileID: 2100000, guid: fb33215c065167543bd69f916742469f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metal EscuroBrilho
-    second: {fileID: 2100000, guid: 5ae6de7b013745446a4181221c7fb73b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metal MeioBrilho
-    second: {fileID: 2100000, guid: 0e2d46514d2ca9844819f949b75f8744, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Preto Fosco
-    second: {fileID: 2100000, guid: c20f7f431a5f5314f9461ae2b39a4a3b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Verde Placa
-    second: {fileID: 2100000, guid: 0b0871f449079894487e0484adad9025, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Vermelho
-    second: {fileID: 2100000, guid: 3a3c9c0f25c5d8843be08a27876c3c31, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
