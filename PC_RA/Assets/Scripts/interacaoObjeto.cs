@@ -5,13 +5,15 @@ using UnityEngine;
 public class interacaoObjeto : MonoBehaviour
 {
     private bool isVerificarToque;
-    private Animator anim;
+  
     public string nomeAnimacao;
-
+    private animacaoGabinete _animacaoGabinete;
+    
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        
+        _animacaoGabinete = FindObjectOfType(typeof(animacaoGabinete)) as animacaoGabinete;
     }
 
     // Update is called once per frame
@@ -21,13 +23,12 @@ public class interacaoObjeto : MonoBehaviour
         {
             if (Input.GetButton("Fire1"))
             {
-
-                anim.SetTrigger(nomeAnimacao);
-
-
+                _animacaoGabinete.nomeAnimacao = nomeAnimacao;
+               // anim.enabled = true;
+               //  anim.SetTrigger("PlacaMae");
+                Debug.Log(this.gameObject.name);
             }
         }
-
     }
 
     private void OnMouseDown()
