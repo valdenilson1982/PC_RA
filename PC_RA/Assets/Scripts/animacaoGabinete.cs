@@ -6,7 +6,7 @@ public class animacaoGabinete : MonoBehaviour
 {
     private Animator anim;
     public string nomeAnimacao;
-    public bool verificarAnimacao,verificarAnimacao2, verificarAnimacao3, verificarAnimacao4;
+    public bool verificarAnimacao,verificarAnimacao2, verificarAnimacao3, verificarAnimacao4, verificarAnimacao5, verificarAnimacao6, verificarAnimacao7, verificarAnimacao8;
     public GameObject placaMaeAnim;
     private Animation animat;
 
@@ -63,6 +63,63 @@ public class animacaoGabinete : MonoBehaviour
 
             verificarAnimacao4 = true;
         }
+        else
+        if (nomeAnimacao == "MemoriaRAM" && verificarAnimacao5 == false)
+        {
+
+            anim.SetBool("PlacaMae", false);
+            anim.SetBool("CPU", false);
+            anim.SetBool("Fonte", false);
+            anim.SetBool("Cooler", false);
+            anim.SetBool("MemoriaRAM", true);
+
+
+            verificarAnimacao5 = true;
+        }else
+        if (nomeAnimacao == "VGA" && verificarAnimacao6 == false)
+        {
+
+            anim.SetBool("PlacaMae", false);
+            anim.SetBool("CPU", false);
+            anim.SetBool("Fonte", false);
+            anim.SetBool("Cooler", false);
+            anim.SetBool("MemoriaRAM", false);
+            anim.SetBool("VGA", true);
+
+
+            verificarAnimacao6 = true;
+        }
+        else
+        if (nomeAnimacao == "SSD" && verificarAnimacao7 == false)
+        {
+
+            anim.SetBool("PlacaMae", false);
+            anim.SetBool("CPU", false);
+            anim.SetBool("Fonte", false);
+            anim.SetBool("Cooler", false);
+            anim.SetBool("MemoriaRAM", false);
+            anim.SetBool("VGA", false);
+            anim.SetBool("SSD", true);
+
+
+            verificarAnimacao7 = true;
+        }
+        else
+        if (nomeAnimacao == "Tampa" && verificarAnimacao8 == false)
+        {
+
+            anim.SetBool("PlacaMae", false);
+            anim.SetBool("CPU", false);
+            anim.SetBool("Fonte", false);
+            anim.SetBool("Cooler", false);
+            anim.SetBool("MemoriaRAM", false);
+            anim.SetBool("VGA", false);
+            anim.SetBool("SSD", false);
+            anim.SetBool("Tampa", true);
+
+
+            verificarAnimacao8 = true;
+        }
         if (fimAnim == true)
         {
             Debug.Log("remove");
@@ -96,4 +153,20 @@ public class animacaoGabinete : MonoBehaviour
     {
         anim.SetBool("MemoriaRAM", false);
     }
+    public void fimAnimacaoVGA()
+    {
+        anim.SetBool("VGA", false);
+    }
+
+    public void fimAnimacaoSSD()
+    {
+        anim.SetBool("SSD", false);
+    }
+
+    public void fimAnimacaoTampa()
+    {
+        anim.SetBool("Tampa", false);
+    }
+
+
 }
