@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/projetoEstrutural.unity
     guid: 1ca71d7ba8787374eb09ccce0de8390f
+  - enabled: 1
+    path: Assets/Scenes/TelaInicial.unity
+    guid: 44b4a521c7d48a64b80366506dafefd9
+  - enabled: 1
+    path: Assets/Scenes/Cena PC _programacao.unity
+    guid: fe9cf774fb4e3d14ab864f7d10f8e7a5
   m_configObjects: {}
